@@ -1,0 +1,119 @@
+.save-the-date {
+  padding: 6rem 2rem;
+  background: linear-gradient(180deg, var(--forest-green-dark) 0%, var(--forest-green-medium) 100%);
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.date-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  animation: fadeIn 1s ease-out 0.3s both;
+}
+
+.date-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-family: var(--font-serif);
+}
+
+.date-month {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  color: var(--text-light);
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.date-day {
+  font-size: clamp(5rem, 12vw, 10rem);
+  color: var(--text-light);
+  font-weight: 400;
+  line-height: 1;
+  position: relative;
+  opacity: 0.9;
+}
+
+.date-day::after {
+  content: '';
+  position: absolute;
+  bottom: 0.1em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--jewel-teal),
+    transparent
+  );
+}
+
+.date-year {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  color: var(--text-light);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.date-divider {
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--forest-green-lightest),
+    transparent
+  );
+}
+
+.date-info {
+  text-align: center;
+  max-width: 600px;
+}
+
+.date-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  color: var(--text-light);
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.date-description {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: var(--text-light);
+  line-height: 1.8;
+  opacity: 0.95;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .save-the-date {
+    padding: 4rem 1.5rem;
+  }
+  
+  .date-content {
+    gap: 2rem;
+  }
+}
+
+
+
