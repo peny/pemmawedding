@@ -1,7 +1,6 @@
 services:
-  - type: web
+  - type: static
     name: pemmawedding
-    env: static
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     headers:
@@ -14,6 +13,9 @@ services:
       - path: /*
         name: X-XSS-Protection
         value: 1; mode=block
+    envVars:
+      - key: VITE_RSVP_LINK
+        sync: false
 
 
 
