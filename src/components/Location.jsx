@@ -45,6 +45,16 @@ function Location() {
               <p className="card-text">
                 We'll be staying at Villa Alma, but unfortunately not everyone will fit there! There are many lovely hotels and guesthouses in Visby's charming old town, as well as options just outside the city walls. We recommend staying within walking distance of the city center to fully enjoy the medieval atmosphere.
               </p>
+              <p className="card-text">
+                <a 
+                  href="https://sv.hotels.com/Hotel-Search?destination=Gotlands%20l%C3%A4n%2C%20Sverige&startDate=2026-07-09&endDate=2026-07-11&adults=2&rooms=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="accommodation-link"
+                >
+                  Search for hotels in Gotland (July 9-11, 2026) →
+                </a>
+              </p>
             </div>
             
             <div className="location-card">

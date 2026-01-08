@@ -114,6 +114,20 @@
   font-weight: 600;
 }
 
+.accommodation-link {
+  display: inline-block;
+  color: var(--jewel-teal);
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.accommodation-link:hover {
+  color: var(--forest-green-dark);
+  text-decoration: underline;
+}
+
 .venue-image {
   margin-top: 1.5rem;
   border-radius: 8px;
