@@ -6,15 +6,15 @@ function Footer() {
       <div className="container">
         <div className="footer-content">
           <p className="footer-text">
-            We can't wait to celebrate with you!
+            Vi ser fram emot att fira med er!
           </p>
           <p className="footer-text">
-            With love,<br />
+            Med kärlek,<br />
             <span className="footer-names">Petter & Emma</span>
           </p>
           <div className="footer-divider"></div>
           <p className="footer-note">
-            Questions? Feel free to reach out to us directly.
+            Frågor? Hör gärna av er direkt till oss.
           </p>
         </div>
       </div>

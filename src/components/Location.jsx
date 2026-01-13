@@ -13,11 +13,11 @@ function Location() {
           
           <div className="location-details">
             <div className="location-card">
-              <h3 className="card-title">The Venue</h3>
+              <h3 className="card-title">Platsen</h3>
               <p className="card-text">
-                We're getting married in Visby, a UNESCO World Heritage site and one of Sweden's most beautiful medieval towns. 
-                Located on the island of Gotland in the Baltic Sea, Visby offers stunning architecture, cobblestone streets, 
-                and a magical atmosphere perfect for our special day.
+                Vi gifter oss i S:t Nicolai, den största och bäst bevarade medeltida kyrkoruinen i Visby. 
+                Byggd på 1220-talet har denna fantastiska gotiska hallkyrka fortfarande alla sina murar, fönster och 15 av sina ursprungliga valv intakta. 
+                En magisk plats där historia möter romantik.
               </p>
               <div className="venue-image">
                 <img src={venueImage} alt="Sankt Nicolai Ruin, Visby" />
@@ -25,25 +25,19 @@ function Location() {
             </div>
             
             <div className="location-card">
-              <h3 className="card-title">Getting There</h3>
+              <h3 className="card-title">Resan dit</h3>
               <p className="card-text">
-                <strong>We recommend taking the ferry!</strong> The ferry journey from Nynäshamn (about 1 hour south of Stockholm) to Visby takes approximately 3-3.5 hours and offers a beautiful journey across the Baltic Sea. You can bring your car, which is convenient for exploring the island. Book your ferry tickets in advance through Destination Gotland (destinationgotland.se) as it's a popular route, especially during summer.
+                <strong>Färja från Nynäshamn:</strong> Ta tåget från Stockholm Central till Nynäshamn, eller ta bilen - den får åka med på färjan! Färjeresan från Nynäshamn till Visby tar ungefär 3-3,5 timmar. Boka era färjebiljetter i förväg via <a href="https://destinationgotland.se" target="_blank" rel="noopener noreferrer" className="accommodation-link">Destination Gotland</a>.
               </p>
               <p className="card-text">
-                <strong>From Stockholm to Nynäshamn:</strong> Take the train from Stockholm Central Station to Nynäshamn (about 1 hour), or drive (about 1 hour). The ferry terminal is right next to the train station.
-              </p>
-              <p className="card-text">
-                <strong>Alternative routes:</strong> You can also take the ferry from Oskarshamn (on the east coast) if that's more convenient. If you prefer flying, there are direct flights from Stockholm Arlanda or Bromma to Visby Airport (VBY), taking about 45 minutes.
+                <strong>Flyg från Stockholm:</strong> Det finns direkta flyg från Stockholm Arlanda eller Bromma till Visby flygplats (VBY), vilket tar cirka 45 minuter.
               </p>
             </div>
             
             <div className="location-card">
-              <h3 className="card-title">Accommodation</h3>
+              <h3 className="card-title">Boende</h3>
               <p className="card-text">
-                <strong>Book your hotel room ASAP!</strong> Stockholmsveckan (Stockholm Week) starts right after our wedding, which means Visby gets very busy and hotels fill up quickly. We'd recommend booking your accommodation as soon as possible to secure a good spot. Don't feel stressed about it, but the earlier you book, the better your options will be.
-              </p>
-              <p className="card-text">
-                We'll be staying at Villa Alma, but unfortunately not everyone will fit there! There are many lovely hotels and guesthouses in Visby's charming old town, as well as options just outside the city walls. We recommend staying within walking distance of the city center to fully enjoy the medieval atmosphere.
+                Vi rekommenderar att ni bokar boende så fort som möjligt då det är högsäsong på Gotland! Vi rekommenderar också att bo centralt så att ni kan njuta av staden.
               </p>
               <p className="card-text">
                 <a 
@@ -52,17 +46,8 @@ function Location() {
                   rel="noopener noreferrer"
                   className="accommodation-link"
                 >
-                  Search for hotels in Gotland (July 9-11, 2026) →
+                  Sök hotell på Gotland (9-11 juli 2026) →
                 </a>
-              </p>
-            </div>
-            
-            <div className="location-card">
-              <h3 className="card-title">About Gotland</h3>
-              <p className="card-text">
-                Gotland is Sweden's largest island, known for its unique limestone formations, beautiful beaches, 
-                and rich history. Visby, the main town, is surrounded by medieval walls and offers excellent restaurants, 
-                charming hotels, and plenty to explore. We recommend staying a few extra days to enjoy everything the island has to offer!
               </p>
             </div>
           </div>

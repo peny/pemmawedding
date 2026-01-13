@@ -9,19 +9,19 @@ function ProposalPhotos() {
     <section className="proposal-photos">
       <div className="container">
         <div className="proposal-content">
-          <p className="proposal-subtitle">From our proposal in Vietnam</p>
+          <p className="proposal-subtitle">Från vår frieri i Vietnam</p>
           <div className="proposal-gallery">
             <div className="proposal-item">
-              <img src={image1} alt="Proposal photoshoot" />
+              <img src={image1} alt="Frierifotografering" />
             </div>
             <div className="proposal-item">
-              <img src={image2} alt="Proposal photoshoot" />
+              <img src={image2} alt="Frierifotografering" />
             </div>
             <div className="proposal-item">
-              <img src={image3} alt="Proposal photoshoot" />
+              <img src={image3} alt="Frierifotografering" />
             </div>
             <div className="proposal-item">
-              <img src={image4} alt="Proposal photoshoot" />
+              <img src={image4} alt="Frierifotografering" />
             </div>
           </div>
         </div>

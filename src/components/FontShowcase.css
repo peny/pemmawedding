@@ -6,6 +6,23 @@
   border-top: 2px solid var(--forest-green-light);
 }
 
+.info-message {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.info-text {
+  font-family: 'Quicksand', sans-serif;
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 600;
+  color: var(--forest-green-dark);
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
 .showcase-title {
   font-family: var(--font-serif);
   font-size: clamp(2rem, 4vw, 3rem);
@@ -63,13 +80,17 @@
   color: var(--text-dark);
 }
 
-/* Bagel Fat One */
-.bagel .sample-title,
-.bagel .sample-subtitle,
-.bagel .sample-text {
+/* Bagel Fat One - Title only, Quicksand for subtitle and text */
+.bagel .sample-title {
   font-family: 'Bagel Fat One', cursive;
   font-weight: 400;
   letter-spacing: 0.02em;
+}
+
+.bagel .sample-subtitle,
+.bagel .sample-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
 }
 
 /* Fredoka One */
@@ -250,8 +271,8 @@
     padding: 3rem 1.5rem;
   }
   
-  .font-option {
-    padding: 1.5rem;
+  .info-message {
+    padding: 2rem 1.5rem;
   }
 }
 

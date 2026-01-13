@@ -1,6 +1,5 @@
 import Hero from './components/Hero'
 import FontShowcase from './components/FontShowcase'
-import ProposalPhotos from './components/ProposalPhotos'
 import Location from './components/Location'
 import RSVP from './components/RSVP'
 import Footer from './components/Footer'
@@ -10,10 +9,9 @@ function App() {
   return (
     <div className="app">
       <Hero />
-      <FontShowcase />
-      <ProposalPhotos />
       <Location />
       <RSVP />
+      <FontShowcase />
       <Footer />
     </div>
   )
