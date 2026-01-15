@@ -54,7 +54,7 @@
 .hero-title::after {
   content: '';
   display: block;
-  width: min(220px, 55%);
+  width: min(220px, 75%);
   height: 1px;
   margin: 0.75rem auto 0;
   background: linear-gradient(
@@ -73,26 +73,6 @@
   margin-bottom: 1.5rem;
   opacity: 0.9;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
-  position: relative;
-  padding: 0 2rem;
-}
-
-.hero-date::before,
-.hero-date::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  width: 40px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.4);
-}
-
-.hero-date::before {
-  left: 0;
-}
-
-.hero-date::after {
-  right: 0;
 }
 
 .hero-subtitle {
