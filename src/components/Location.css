@@ -103,6 +103,9 @@
   color: var(--text-dark);
   line-height: 1.8;
   margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .card-text:last-child {
@@ -121,6 +124,8 @@
   font-weight: 500;
   margin-top: 0.5rem;
   transition: color 0.3s ease;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .accommodation-link:hover {
