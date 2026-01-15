@@ -2,7 +2,7 @@ import './RSVP.css'
 
 function RSVP() {
   // Replace this with your actual Google Docs questionnaire link
-  const rsvpLink = import.meta.env.VITE_RSVP_LINK || 'https://docs.google.com/forms/d/your-form-id/viewform'
+  const rsvpLink = import.meta.env.VITE_RSVP_LINK || 'https://docs.google.com/forms/d/e/1FAIpQLSerTB7OA52NjmkcicHb01aaFbcu0Ko2LktFu8pm4LVTuRxDWQ/viewform'
   
   return (
     <section className="rsvp">

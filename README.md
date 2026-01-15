@@ -37,7 +37,7 @@ cp .env.example .env
 
 Edit `.env` and add your Google Docs RSVP questionnaire link:
 ```
-VITE_RSVP_LINK=https://docs.google.com/forms/d/your-actual-form-id/viewform
+VITE_RSVP_LINK=https://docs.google.com/forms/d/e/1FAIpQLSerTB7OA52NjmkcicHb01aaFbcu0Ko2LktFu8pm4LVTuRxDWQ/viewform
 ```
 
 ### Development
