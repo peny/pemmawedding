@@ -48,7 +48,8 @@
 .rsvp-button {
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
+  justify-content: center;
+  gap: 0.5em;
   padding: 2rem 5rem;
   background: var(--jewel-teal);
   color: var(--text-light);
@@ -61,6 +62,7 @@
   box-shadow: 0 4px 15px rgba(74, 124, 124, 0.4);
   letter-spacing: 0.02em;
   white-space: nowrap;
+  line-height: 1.2;
 }
 
 .rsvp-button:hover {
@@ -73,12 +75,15 @@
   transform: translateY(-1px);
 }
 
-.rsvp-button-arrow {
-  font-size: 1.5em;
-  transition: transform 0.3s ease;
+.rsvp-button-text {
   display: inline-block;
-  vertical-align: middle;
-  margin-left: 0.25em;
+}
+
+.rsvp-button-arrow {
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1;
+  transition: transform 0.3s ease;
 }
 
 .rsvp-button:hover .rsvp-button-arrow {

@@ -14,7 +14,8 @@ function RSVP() {
             rel="noopener noreferrer"
             className="rsvp-button"
           >
-            O.S.A&nbsp;här&nbsp;senast <span style={{whiteSpace: 'nowrap'}}>1&nbsp;maj <span className="rsvp-button-arrow">→</span></span>
+            <span className="rsvp-button-text">O.S.A&nbsp;här&nbsp;senast&nbsp;1&nbsp;maj</span>
+            <span className="rsvp-button-arrow">→</span>
           </a>
         </div>
       </div>
