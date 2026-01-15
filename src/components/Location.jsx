@@ -46,7 +46,7 @@ function Location() {
                   rel="noopener noreferrer"
                   className="accommodation-link"
                 >
-                  Sök hotell på Gotland (9-11&nbsp;juli&nbsp;2026) →
+                  Sök hotell på Gotland (<span style={{whiteSpace: 'nowrap'}}>9-11 juli 2026</span>) →
                 </a>
               </p>
             </div>
