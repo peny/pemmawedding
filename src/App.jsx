@@ -2,7 +2,6 @@ import Hero from './components/Hero'
 import FontShowcase from './components/FontShowcase'
 import Location from './components/Location'
 import RSVP from './components/RSVP'
-import Footer from './components/Footer'
 import './styles/App.css'
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <Location />
       <RSVP />
       <FontShowcase />
-      <Footer />
     </div>
   )
 }
