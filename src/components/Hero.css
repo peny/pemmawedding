@@ -30,7 +30,7 @@
   right: 0;
   bottom: 0;
   background: var(--forest-green-dark);
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .hero-content {
@@ -84,16 +84,6 @@
   margin-top: 0.75rem;
 }
 
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: var(--forest-green-dark);
-  opacity: 0.3;
-  pointer-events: none;
-}
 
 @keyframes fadeInUp {
   from {

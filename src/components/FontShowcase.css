@@ -3,7 +3,6 @@
 .font-showcase {
   padding: 4rem 2rem;
   background: var(--forest-green-dark);
-  border-top: 2px solid var(--forest-green-light);
 }
 
 .info-message {
@@ -11,7 +10,7 @@
   margin: 0 auto;
   text-align: center;
   padding: 3rem 2rem;
-  background: white;
+  background: var(--cream);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(13, 40, 24, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.5);

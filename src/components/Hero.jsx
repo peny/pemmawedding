@@ -10,7 +10,6 @@ function Hero() {
         <div className="hero-subtitle">Save the Date</div>
         <div className="hero-date">10:e juli 2026</div>
       </div>
-      <div className="hero-overlay"></div>
     </section>
   )
 }
