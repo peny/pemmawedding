@@ -15,9 +15,8 @@ function Location() {
             <div className="location-card">
               <h3 className="card-title">Platsen</h3>
               <p className="card-text">
-                Vi gifter oss i S:t&nbsp;Nicolai, den största och bäst bevarade medeltida kyrkoruinen i Visby. 
-                Byggd på 1220-talet har denna fantastiska gotiska hallkyrka fortfarande alla sina murar, fönster och 15 av sina ursprungliga valv intakta. 
-                En magisk plats där historia möter romantik.
+                Vi gifter oss i S:t&nbsp;Nicolai, den största och bäst bevarade kyrkoruinen i Visby. Den är byggd i gotisk stil på 1200-talet och med dess halvrestaurerade tak är vi säkra på att det blir ett magiskt ställe att giftas sig på oavsett väder.
+            
               </p>
               <div className="venue-image">
                 <img src={venueImage} alt="Sankt Nicolai Ruin, Visby" />
