@@ -30,7 +30,18 @@
   right: 0;
   bottom: 0;
   background: var(--forest-green-dark);
-  opacity: 1;
+  opacity: 0.4;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--forest-green-dark);
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 .hero-content {

@@ -6,10 +6,11 @@ function Hero() {
     <section className="hero">
       <div className="hero-background" style={{ backgroundImage: `url(${heroImage})` }}></div>
       <div className="hero-content">
-        <h1 className="hero-title">Petter och Emma gifter sig!</h1>
+        <h1 className="hero-title">Petter & Emma gifter sig!</h1>
         <div className="hero-subtitle">Save the Date</div>
         <div className="hero-date">10:e juli 2026</div>
       </div>
+      <div className="hero-overlay"></div>
     </section>
   )
 }
