@@ -1,11 +1,6 @@
 .location {
   padding: 6rem 2rem;
-  background: linear-gradient(
-    to bottom,
-    #1a3d2e 0%,
-    var(--forest-green-dark) 50%,
-    var(--jewel-teal) 100%
-  );
+  background: var(--forest-green-dark);
   position: relative;
 }
 

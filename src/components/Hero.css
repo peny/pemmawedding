@@ -29,7 +29,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #0a1f12 0%, var(--forest-green-dark) 50%, var(--jewel-teal) 100%);
+  background: var(--forest-green-dark);
   opacity: 0.4;
 }
 
@@ -90,12 +90,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(10, 31, 18, 0.3) 0%,
-    transparent 50%,
-    rgba(10, 31, 18, 0.4) 100%
-  );
+  background: var(--forest-green-dark);
+  opacity: 0.3;
   pointer-events: none;
 }
 

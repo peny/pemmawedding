@@ -2,7 +2,7 @@
 
 .font-showcase {
   padding: 4rem 2rem;
-  background: var(--cream);
+  background: var(--forest-green-dark);
   border-top: 2px solid var(--forest-green-light);
 }
 
@@ -30,7 +30,7 @@
 .showcase-title {
   font-family: var(--font-serif);
   font-size: clamp(2rem, 4vw, 3rem);
-  color: var(--forest-green-dark);
+  color: var(--text-light);
   text-align: center;
   margin-bottom: 3rem;
   font-weight: 400;

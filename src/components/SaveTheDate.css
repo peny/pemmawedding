@@ -1,6 +1,6 @@
 .save-the-date {
   padding: 6rem 2rem;
-  background: linear-gradient(180deg, var(--forest-green-dark) 0%, var(--forest-green-medium) 100%);
+  background: var(--forest-green-dark);
   position: relative;
 }
 
