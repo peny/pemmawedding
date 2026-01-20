@@ -30,6 +30,8 @@ function Location() {
               </p>
               <p className="card-text">
                 <strong>Flyg från Stockholm:</strong> Det finns direkta flyg från Stockholm&nbsp;Arlanda eller Bromma till Visby&nbsp;flygplats (VBY), vilket tar cirka 45&nbsp;minuter.
+              </p>
+              <p className="card-text">
                 <strong>Dagstur:</strong> Det går att bara komma över dagen om man planerar väl!          
               </p>
             </div>
