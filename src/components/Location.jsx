@@ -39,7 +39,7 @@ function Location() {
             <div className="location-card">
               <h3 className="card-title">Boende</h3>
               <p className="card-text">
-                Vi rekommenderar att ni bokar boende så fort som möjligt då det är högsäsong på Gotland! Alla hotell i Visby är i princip på promenadavstånd till St. Nicolai.
+                Vi rekommenderar att ni bokar boende så snart som möjligt då det är högsäsong på Gotland! Alla hotell i Visby är i princip inom promenadavstånd till St. Nicolai.
               </p>
               <p className="card-text">
                 <a 
