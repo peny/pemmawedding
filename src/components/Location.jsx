@@ -26,10 +26,10 @@ function Location() {
             <div className="location-card">
               <h3 className="card-title">Resan dit</h3>
               <p className="card-text">
-                <strong>Färja från Nynäshamn:</strong> Ta tåget eller bilen till Nynäshamn, därifrån går Destination Gotlands färjor väldigt regelbundet och tar ca. 3 timmar. Boka era färjebiljetter i förväg via <a href="https://destinationgotland.se" target="_blank" rel="noopener noreferrer" className="accommodation-link">Destination&nbsp;Gotland</a>.
+                <strong>Färja från Nynäshamn:</strong> Ta tåget eller bilen till Nynäshamn, därifrån går Destination Gotlands färjor väldigt regelbundet och tar ca 3 timmar. Boka era färjebiljetter i förväg via <a href="https://destinationgotland.se" target="_blank" rel="noopener noreferrer" className="accommodation-link">Destination&nbsp;Gotland</a>.
               </p>
               <p className="card-text">
-                <strong>Flyg från Stockholm:</strong> Det finns direkta flyg från Stockholm&nbsp;Arlanda eller Bromma till Visby&nbsp;flygplats (VBY), vilket tar cirka 45&nbsp;minuter.
+                <strong>Flyg från Stockholm:</strong> Det finns direktflyg från Stockholm&nbsp;Arlanda eller Bromma till Visby&nbsp;flygplats (VBY), vilket tar cirka 45&nbsp;minuter.
               </p>
               <p className="card-text">
                 <strong>Det går att bara komma över dagen om man planerar väl!</strong>         
