@@ -14,7 +14,7 @@ function RSVP() {
             rel="noopener noreferrer"
             className="rsvp-button"
           >
-            <span className="rsvp-button-text">O.S.A&nbsp;här&nbsp;senast&nbsp;10&nbsp;maj</span>
+            <span className="rsvp-button-text">O.S.A&nbsp;här&nbsp;senast&nbsp;31&nbsp;maj</span>
             <span className="rsvp-button-arrow">→</span>
           </a>
         </div>
