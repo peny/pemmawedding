@@ -1,0 +1,123 @@
+.schedule {
+  padding: 6rem 2rem;
+  background: var(--forest-green-medium);
+  position: relative;
+}
+
+.schedule-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.schedule-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.schedule-divider {
+  width: 150px;
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--forest-green-lightest),
+    transparent
+  );
+  margin: 0 auto;
+}
+
+.schedule-timeline {
+  max-width: 720px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.schedule-timeline::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--forest-green-lightest),
+    transparent
+  );
+}
+
+.schedule-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.schedule-item:last-child {
+  margin-bottom: 0;
+}
+
+.schedule-marker {
+  position: absolute;
+  left: -2rem;
+  top: 1.75rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--cream);
+  border: 3px solid var(--forest-green-lightest);
+  box-shadow: 0 0 0 4px var(--forest-green-medium);
+}
+
+.schedule-card {
+  background: var(--cream);
+  padding: 1.75rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(13, 40, 24, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.schedule-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(13, 40, 24, 0.4);
+}
+
+.schedule-event-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 3vw, 1.7rem);
+  color: var(--forest-green-dark);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.25rem;
+}
+
+.schedule-event-place {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  margin-bottom: 0.75rem;
+}
+
+.schedule-event-text {
+  color: var(--text-dark);
+  line-height: 1.7;
+}
+
+.schedule-note {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  font-style: italic;
+  margin-top: 3rem;
+}
+
+@media (max-width: 600px) {
+  .schedule {
+    padding: 4rem 1.25rem;
+  }
+}
