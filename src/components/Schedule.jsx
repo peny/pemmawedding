@@ -14,7 +14,7 @@ const events = [
   {
     title: 'Bröllopsmiddag',
     place: 'Visby',
-    text: 'Trerätters middag med tal, skratt och några tårar av glädje.',
+    text: 'Middag med tal, skratt och några tårar av glädje.',
   },
   {
     title: 'Fest & dans',
