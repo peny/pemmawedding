@@ -52,10 +52,6 @@ function Schedule() {
             </div>
           ))}
         </div>
-
-        <p className="schedule-note">
-          Detaljerade tider kommer närmare bröllopet.
-        </p>
       </div>
     </section>
   )
