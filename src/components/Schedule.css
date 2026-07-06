@@ -87,6 +87,15 @@
   box-shadow: 0 8px 30px rgba(13, 40, 24, 0.4);
 }
 
+.schedule-event-time {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--accent-color);
+  letter-spacing: 0.03em;
+  margin-bottom: 0.35rem;
+}
+
 .schedule-event-title {
   font-family: var(--font-heading);
   font-size: clamp(1.4rem, 3vw, 1.7rem);

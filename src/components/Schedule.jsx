@@ -2,6 +2,13 @@ import './Schedule.css'
 
 const events = [
   {
+    time: '14:30',
+    title: 'Samling',
+    place: 'S:t Nicolai kyrkoruin',
+    text: 'Vi ses utanför ruinen innan vigseln – kom gärna i god tid.',
+  },
+  {
+    time: '15:00',
     title: 'Vigsel',
     place: 'S:t Nicolai kyrkoruin',
     text: 'Vi säger ja till varandra i den vackra medeltidsruinen mitt i Visby.',
@@ -37,6 +44,7 @@ function Schedule() {
             <div className="schedule-item" key={event.title}>
               <div className="schedule-marker"></div>
               <div className="schedule-card">
+                {event.time && <span className="schedule-event-time">{event.time}</span>}
                 <h3 className="schedule-event-title">{event.title}</h3>
                 <span className="schedule-event-place">{event.place}</span>
                 <p className="schedule-event-text">{event.text}</p>
